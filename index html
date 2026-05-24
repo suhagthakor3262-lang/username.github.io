@@ -1,1418 +1,341 @@
-Jaiho91
-CasinoRank
-Player rating
-0reviews
-
-Complaint response
-The Platform has paid a deposit of 10 million US dollars to the ProSafeBet to ensure the safety of your bets and funds.
-NOMINATE
-What we like
-Safety Guarantee
-Download App
-Join Our Telegram Channel
-Jaiho91
-Click to collect the Bonus now
-
-Website
-
-Affiliate Program
-
-Languages
-
-Company
-
-Established
-
-Licences
-   
 
 
-     
-
-DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-<title>JAIHO91 | Win Bigtitle>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{
-  --gold:#ffd700;
-  --blue:#00f5ff;
-  --purple:#bf00ff;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-body{
-  background:#050810;
-  font-family:'Noto Sans SC',sans-serif;
-  color:#fff;
-  overflow-x:hidden;
-}
-.grad-text{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-@keyframes gradShift{
-  0%{background-position:0% center}
-  100%{background-position:200% center}
-}
-body:before{
-  content:'';
-  position:fixed;inset:0;
-  background:radial-gradient(circle at 20% 20%,rgba(255,215,0,.08),transparent 40%),
-              radial-gradient(circle at 80% 70%,rgba(191,0,255,.08),transparent 40%);
-  z-index:-1;
-}
-nav{
-  position:fixed;left:0;right:0;top:0;
-  padding:20px 60px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  background:rgba(5,8,16,.82);
-  backdrop-filter:blur(16px);
-  z-index:999;
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.logo{
-  font-family:Orbitron;
-  font-weight:900;
-  font-size:30px;
-  background:linear-gradient(90deg,var(--gold),#fff,var(--purple));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-}
-nav ul{display:flex;gap:40px;list-style:none;}
-nav ul a{
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.12em;
-  font-weight:700;
-  text-transform:uppercase;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-nav ul a:hover{opacity:.7}
-.play-btn{
-  padding:12px 32px;
-  background:linear-gradient(90deg,var(--gold),#ff9100);
-  color:#111;
-  font-weight:800;
-  border-radius:50px;
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.1em;
-  transition:transform .2s,box-shadow .3s;
-}
-.play-btn:hover{
-  transform:translateY(-2px);
-  box-shadow:0 8px 28px rgba(255,215,0,.4);
-}
-.hero{
-  min-height:100vh;
-  padding:140px 70px 80px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:50px;
-}
-.hero-left{max-width:640px;}
-h1{
-  font-family:Orbitron;
-  font-size:76px;
-  line-height:1.05;
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.hero p{
-  font-size:20px;
-  line-height:1.8;
-  margin-bottom:40px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-}
-.hero-buttons{display:flex;gap:20px;flex-wrap:wrap;}
-.btn-main{
-  padding:18px 40px;
-  border-radius:50px;
-  background:linear-gradient(90deg,var(--gold),#ff9300);
-  text-decoration:none;
-  font-weight:800;
-  color:#111;
-  transition:transform .2s,box-shadow .3s;
-}
-.btn-main:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(255,215,0,.4);}
-.btn-ghost{
-  padding:18px 34px;
-  border-radius:50px;
-  border:1px solid rgba(255,215,0,.4);
-  text-decoration:none;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-.hero-right{flex:1;display:flex;justify-content:center;}
-.phone-wrap{position:relative;}
-.phone-ring{
-  position:absolute;inset:-60px;
-  border-radius:50%;
-  border:1px solid rgba(255,215,0,.12);
-  animation:ringPulse 4s infinite;
-}
-.phone-ring.r2{inset:-100px;animation-delay:1s;}
-.phone-ring.r3{inset:-140px;animation-delay:2s;}
-@keyframes ringPulse{50%{transform:scale(1.08);opacity:.4}}
-.phone{
-  width:310px;height:620px;
-  border-radius:42px;padding:10px;
-  background:linear-gradient(145deg,#111,#222,#000);
-  box-shadow:0 0 70px rgba(255,215,0,.2),0 0 140px rgba(191,0,255,.12);
-  animation:float 6s ease-in-out infinite;
-}
-@keyframes float{50%{transform:translateY(-20px)}}
-.screen{
-  height:100%;border-radius:34px;
-  overflow:hidden;position:relative;background:#000;
-}
-.screen video{
-  position:absolute;inset:0;
-  width:100%;height:100%;object-fit:cover;
-  pointer-events:none;
-}
-.screen:after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(to top,rgba(0,0,0,.35),transparent 40%),
-             linear-gradient(to bottom,rgba(0,0,0,.2),transparent 22%);
-  pointer-events:none;z-index:2;
-}
-.notch{
-  position:absolute;
-  width:90px;height:22px;background:#000;
-  left:50%;transform:translateX(-50%);
-  z-index:10;border-radius:0 0 18px 18px;
-}
-.stats{
-  display:grid;grid-template-columns:repeat(4,1fr);
-  padding:50px 40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.stat b{
-  display:block;font-size:50px;
-  font-family:Orbitron;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.stat span{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-  font-size:0.82rem;letter-spacing:0.1em;text-transform:uppercase;
-}
-section{padding:110px 60px;}
-.section-title{
-  font-family:Orbitron;
-  margin-bottom:60px;
-  font-size:clamp(2rem,4vw,3.5rem);
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.section-tag{
-  font-family:Orbitron;font-size:0.65rem;
-  letter-spacing:0.3em;text-transform:uppercase;
-  margin-bottom:16px;display:flex;align-items:center;gap:12px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.section-tag::before{content:'';display:inline-block;width:30px;height:1px;background:var(--gold);}
-.features{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  gap:2px;background:rgba(255,215,0,.06);
-}
-.card{
-  background:#0a101a;padding:50px 35px;
-  position:relative;overflow:hidden;
-  transition:background .4s;
-}
-.card:hover{background:rgba(255,215,0,.04);}
-.card::after{
-  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(255,215,0,.35),transparent);
-  transform:scaleX(0);transition:transform .4s;
-}
-.card:hover::after{transform:scaleX(1);}
-.card h3{
-  margin-bottom:18px;font-family:Orbitron;font-size:0.95rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-.card p{
-  line-height:1.8;font-size:0.88rem;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.card-num{
-  position:absolute;top:20px;right:28px;
-  font-family:Orbitron;font-size:3rem;font-weight:900;
-  color:rgba(255,215,0,.05);line-height:1;
-}
-.carousel-section{padding:80px 0 120px;overflow:hidden;}
-.carousel-header{padding:0 60px;margin-bottom:50px;}
-.track{
-  display:flex;gap:24px;
-  padding:10px 60px;
-  width:max-content;
-  animation:scroll 28s linear infinite;
-}
-.track:hover{animation-play-state:paused;}
-@keyframes scroll{100%{transform:translateX(-50%)}}
-.shot{
-  width:240px;height:430px;
-  border-radius:30px;overflow:hidden;
-  border:1px solid rgba(255,215,0,.25);
-  position:relative;background:#111;
-  box-shadow:0 12px 50px rgba(0,0,0,.4);
-  transition:transform .3s,box-shadow .3s;
-  flex-shrink:0;
-}
-.shot:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 20px 60px rgba(255,215,0,.2);}
-.shot img{
-  width:100%;height:100%;
-  object-fit:contain;    /* 完整显示图片，不裁剪 */
-  background:#050810;
-  display:block;
-}
-.shot-fallback{
-  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-  position:relative;
-}
-.shot-fallback-bg-1{background:linear-gradient(160deg,#05200f,#050810,#1a0a00);}
-.shot-fallback-bg-2{background:linear-gradient(160deg,#2d1500,#050810,#1a0535);}
-.shot-fallback-bg-3{background:linear-gradient(160deg,#1a0a00,#05081a,#1a0535);}
-.shot-fallback-bg-4{background:linear-gradient(160deg,#1a0535,#05081a,#1a0a00);}
-.shot-fallback-bg-5{background:linear-gradient(160deg,#1a1000,#050810,#05200f);}
-.shot-grid{
-  position:absolute;inset:0;
-  background-image:linear-gradient(rgba(255,215,0,.05) 1px,transparent 1px),
-                    linear-gradient(90deg,rgba(255,215,0,.05) 1px,transparent 1px);
-  background-size:20px 20px;
-}
-.shot-label{
-  position:absolute;left:0;right:0;bottom:0;
-  padding:20px 16px 16px;text-align:center;
-  font-family:Orbitron;letter-spacing:3px;font-size:0.7rem;
-  background:linear-gradient(to top,rgba(0,0,0,.92),transparent);
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.cta{text-align:center;}
-.cta h2{
-  font-family:Orbitron;
-  font-size:clamp(2.5rem,5vw,4.2rem);
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-}
-.cta p{
-  font-size:1rem;margin-bottom:14px;letter-spacing:0.05em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.downloads{
-  margin-top:45px;display:flex;
-  justify-content:center;gap:25px;flex-wrap:wrap;
-}
-.dl-btn{
-  padding:20px 44px;text-decoration:none;color:#fff;
-  border:1px solid rgba(255,215,0,.3);border-radius:20px;
-  display:flex;align-items:center;gap:14px;
-  position:relative;overflow:hidden;
-  background:rgba(255,215,0,.04);backdrop-filter:blur(10px);
-  transition:all .35s;
-}
-.dl-btn:hover{
-  border-color:rgba(255,215,0,.6);
-  box-shadow:0 0 30px rgba(255,215,0,.2);
-  transform:translateY(-3px);
-}
-.dl-btn-label{text-align:left;}
-.dl-btn-sub{
-  font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;
-  display:block;margin-bottom:4px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
-.dl-btn-main{
-  font-family:Orbitron;font-size:0.95rem;font-weight:700;display:block;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-footer{
-  padding:40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-}
-footer p{
-  font-size:0.75rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.footer-links{
-  display:flex;justify-content:center;gap:30px;list-style:none;margin-bottom:16px;flex-wrap:wrap;
-}
-.footer-links a{
-  text-decoration:none;font-size:0.75rem;letter-spacing:0.08em;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-  transition:opacity .2s;
-}
-.footer-links a:hover{opacity:.65;}
-@media(max-width:980px){
-  nav ul{display:none}
-  h1{font-size:54px}
-  .hero{padding:120px 30px 70px;justify-content:center;}
-  .cta h2{font-size:42px}
-  .features{grid-template-columns:1fr}
-  .stats{grid-template-columns:repeat(2,1fr);gap:30px}
-  section{padding:90px 30px}
-  nav{padding:16px 24px}
-  .carousel-header{padding:0 30px}
-}
-style>
-head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top yono game 2026</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            padding-bottom: 20px;
+        }
+
+        /* Navbar Header */
+        .navbar {
+            background-color: #009640; /* Green theme */
+            color: white;
+            padding: 12px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+
+        .search-box {
+            width: 45%;
+            max-width: 250px;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+            color: #333;
+        }
+
+        /* Section Container */
+        .container {
+            padding: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Top 3 Games Cards Grid */
+        .top-games-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .top-card {
+            background: #fff;
+            border: 2px solid #ffe600; /* Yellow border */
+            border-radius: 12px;
+            padding: 10px 5px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .badge {
+            position: absolute;
+            top: -10px;
+            left: -5px;
+            background: #111e30;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .top-card img {
+            width: 100%;
+            max-width: 65px;
+            aspect-ratio: 1/1;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            object-fit: cover;
+        }
+
+        .top-card p {
+            font-size: 12px;
+            font-weight: bold;
+            color: #222;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* List View Games */
+        .game-list-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            transition: all 0.2s ease;
+        }
+
+        .game-info-box {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .game-info-box img {
+            width: 65px;
+            height: 65px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .game-details h3 {
+            font-size: 15px;
+            color: #111;
+            margin-bottom: 2px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .tag-new {
+            background-color: #ff3b30;
+            color: white;
+            font-size: 9px;
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .bonus-text {
+            font-size: 12px;
+            color: #222;
+            font-weight: 500;
+            margin-bottom: 3px;
+            line-height: 1.4;
+        }
+
+        .stars {
+            color: #ffcc00;
+            font-size: 12px;
+        }
+
+        /* Download Button */
+        .download-btn {
+            background-color: #009640;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+            text-align: center;
+        }
+
+        .download-btn:hover {
+            background-color: #007a33;
+        }
+    </style>
+</head>
 <body>
 
-<nav>
-  <div class="logo">JAIHO91div>
-  <ul>
-    <li><a href="#features">Featuresa>li>
-    <li><a href="#games">Gamesa>li>
-    <li><a href="#download">Downloada>li>
-  ul>
-  <a class="play-btn" href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener">PLAY NOWa>
-nav>
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="menu-icon">&#9776;</div>
+            <div class="logo">🎮 Yono Game<br>Zone</div>
+        </div>
+        <input type="text" id="gameSearch" class="search-box" placeholder="Search games..." onkeyup="searchGames()">
+    </header>
 
-<section class="hero">
-  <div class="hero-left">
-    <h1>Win Big<br>With JAIHO91h1>
-    <p>India's most thrilling real-money gaming platform.<br>Massive jackpots, lightning-fast gameplay and millions of winners.p>
-    <div class="hero-buttons">
-      <a href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener" class="btn-main">Play Freea>
-      <a href="#games" class="btn-ghost">Explore Gamesa>
-    div>
-  div>
-  <div class="hero-right">
-    <div class="phone-wrap">
-      <div class="phone-ring">div>
-      <div class="phone-ring r2">div>
-      <div class="phone-ring r3">div>
-      <div class="phone">
-        <div class="screen">
-          <div class="notch">div>
-          <video autoplay muted loop playsinline preload="auto">
-            <source src="video_2026-04-24_23-40-07.mp4" type="video/mp4">
-          video>
-        div>
-      div>
-    div>
-  div>
-section>
-Jaiho91
-CasinoRank
-Player rating
-0reviews
+    <main class="container">
+        
+        <div id="topSection">
+            <h2 class="section-title">🏆 Top 3 Games</h2>
+            <div class="top-games-grid">
+                
+                <a href="https://dp92t0mhjbqu9.cloudfront.net/yonorummyagent.apk" class="top-card">
+                    <span class="badge">1</span>
+                    <img src="https://kommodo.ai/i/7S8lx5PODYclMxvtgyJg/raw" alt="Yono Rummy">
+                    <p>Yono Rummy</p>
+                </a>
 
-Complaint response
-The Platform has paid a deposit of 10 million US dollars to the ProSafeBet to ensure the safety of your bets and funds.
-NOMINATE
-What we like
-Safety Guarantee
-Download App
-Join Our Telegram Channel
-Jaiho91
-Click to collect the Bonus now
+                <a href="https://spin777ff.com/?code=7V9FYWPMDEW&t=1779605799" class="top-card">
+                    <span class="badge">2</span>
+                    <img src="https://kommodo.ai/i/GKnzMCTD18tNEOb9fXH2/raw" alt="Spin 777">
+                    <p>Spin 777</p>
+                </a>
 
-Website
+                <a href="https://bkfadsegtgs.safelyearnmillionsbysharingonepersonaqfxzqyj8.com/?code=ADEX2NMGVQT&t=1779605852" class="top-card">
+                    <span class="badge">3</span>
+                    <img src="https://kommodo.ai/i/nPz8bs8X1zwcww192mHh/raw" alt="Spin Crush">
+                    <p>Spin Crush</p>
+                </a>
 
-Affiliate Program
+            </div>
+        </div>
 
-Languages
+        <h2 class="section-title">✨ All Games List</h2>
 
-Company
+        <div id="gamesList">
+            <div class="game-list-item">
+                <div class="game-info-box">
+                    <img src="https://kommodo.ai/i/7S8lx5PODYclMxvtgyJg/raw" alt="Yono Rummy">
+                    <div class="game-details">
+                        <h3 class="game-name">Yono Rummy <span class="tag-new">NEW</span></h3>
+                        <p class="bonus-text">Bonus 100<br>Withdrawal 100</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+                <a href="https://dp92t0mhjbqu9.cloudfront.net/yonorummyagent.apk" class="download-btn">Download</a>
+            </div>
 
-Established
+            <div class="game-list-item">
+                <div class="game-info-box">
+                    <img src="https://kommodo.ai/i/GKnzMCTD18tNEOb9fXH2/raw" alt="Spin 777">
+                    <div class="game-details">
+                        <h3 class="game-name">Spin 777 <span class="tag-new">NEW</span></h3>
+                        <p class="bonus-text">Bonus 100<br>Withdrawal 100</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+                <a href="https://spin777ff.com/?code=7V9FYWPMDEW&t=1779605799" class="download-btn">Download</a>
+            </div>
 
-Licences
-   
+            <div class="game-list-item">
+                <div class="game-info-box">
+                    <img src="https://kommodo.ai/i/nPz8bs8X1zwcww192mHh/raw" alt="Spin Crush">
+                    <div class="game-details">
+                        <h3 class="game-name">Spin Crush <span class="tag-new">NEW</span></h3>
+                        <p class="bonus-text">Bonus 100<br>Withdrawal 100</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+                <a href="https://bkfadsegtgs.safelyearnmillionsbysharingonepersonaqfxzqyj8.com/?code=ADEX2NMGVQT&t=1779605852" class="download-btn">Download</a>
+            </div>
 
+            <div class="game-list-item">
+                <div class="game-info-box">
+                    <img src="https://kommodo.ai/i/qJM9vbDfqYD5rC2ZZQ80/raw" alt="567 slots">
+                    <div class="game-details">
+                        <h3 class="game-name">567 slots</h3>
+                        <p class="bonus-text">Bonus 100<br>Withdrawal 100</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+                <a href="https://567slotsrefer08.cc/?code=4NY21SD2TVM&t=1779605926" class="download-btn">Download</a>
+            </div>
 
-     
+            <div class="game-list-item">
+                <div class="game-info-box">
+                    <img src="https://kommodo.ai/i/8MwDhM3mLfBlpVG8eG9c/raw" alt="IND rummy">
+                    <div class="game-details">
+                        <h3 class="game-name">IND Rummy</h3>
+                        <p class="bonus-text">Bonus 100<br>Withdrawal 100</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+                <a href="https://indrummym.in/?code=XU7ZAHJBQM3&t=1779605993" class="download-btn">Download</a>
+            </div>
+        </div>
 
-DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-<title>JAIHO91 | Win Bigtitle>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{
-  --gold:#ffd700;
-  --blue:#00f5ff;
-  --purple:#bf00ff;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-body{
-  background:#050810;
-  font-family:'Noto Sans SC',sans-serif;
-  color:#fff;
-  overflow-x:hidden;
-}
-.grad-text{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-@keyframes gradShift{
-  0%{background-position:0% center}
-  100%{background-position:200% center}
-}
-body:before{
-  content:'';
-  position:fixed;inset:0;
-  background:radial-gradient(circle at 20% 20%,rgba(255,215,0,.08),transparent 40%),
-              radial-gradient(circle at 80% 70%,rgba(191,0,255,.08),transparent 40%);
-  z-index:-1;
-}
-nav{
-  position:fixed;left:0;right:0;top:0;
-  padding:20px 60px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  background:rgba(5,8,16,.82);
-  backdrop-filter:blur(16px);
-  z-index:999;
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.logo{
-  font-family:Orbitron;
-  font-weight:900;
-  font-size:30px;
-  background:linear-gradient(90deg,var(--gold),#fff,var(--purple));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-}
-nav ul{display:flex;gap:40px;list-style:none;}
-nav ul a{
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.12em;
-  font-weight:700;
-  text-transform:uppercase;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-nav ul a:hover{opacity:.7}
-.play-btn{
-  padding:12px 32px;
-  background:linear-gradient(90deg,var(--gold),#ff9100);
-  color:#111;
-  font-weight:800;
-  border-radius:50px;
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.1em;
-  transition:transform .2s,box-shadow .3s;
-}
-.play-btn:hover{
-  transform:translateY(-2px);
-  box-shadow:0 8px 28px rgba(255,215,0,.4);
-}
-.hero{
-  min-height:100vh;
-  padding:140px 70px 80px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:50px;
-}
-.hero-left{max-width:640px;}
-h1{
-  font-family:Orbitron;
-  font-size:76px;
-  line-height:1.05;
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.hero p{
-  font-size:20px;
-  line-height:1.8;
-  margin-bottom:40px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-}
-.hero-buttons{display:flex;gap:20px;flex-wrap:wrap;}
-.btn-main{
-  padding:18px 40px;
-  border-radius:50px;
-  background:linear-gradient(90deg,var(--gold),#ff9300);
-  text-decoration:none;
-  font-weight:800;
-  color:#111;
-  transition:transform .2s,box-shadow .3s;
-}
-.btn-main:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(255,215,0,.4);}
-.btn-ghost{
-  padding:18px 34px;
-  border-radius:50px;
-  border:1px solid rgba(255,215,0,.4);
-  text-decoration:none;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-.hero-right{flex:1;display:flex;justify-content:center;}
-.phone-wrap{position:relative;}
-.phone-ring{
-  position:absolute;inset:-60px;
-  border-radius:50%;
-  border:1px solid rgba(255,215,0,.12);
-  animation:ringPulse 4s infinite;
-}
-.phone-ring.r2{inset:-100px;animation-delay:1s;}
-.phone-ring.r3{inset:-140px;animation-delay:2s;}
-@keyframes ringPulse{50%{transform:scale(1.08);opacity:.4}}
-.phone{
-  width:310px;height:620px;
-  border-radius:42px;padding:10px;
-  background:linear-gradient(145deg,#111,#222,#000);
-  box-shadow:0 0 70px rgba(255,215,0,.2),0 0 140px rgba(191,0,255,.12);
-  animation:float 6s ease-in-out infinite;
-}
-@keyframes float{50%{transform:translateY(-20px)}}
-.screen{
-  height:100%;border-radius:34px;
-  overflow:hidden;position:relative;background:#000;
-}
-.screen video{
-  position:absolute;inset:0;
-  width:100%;height:100%;object-fit:cover;
-  pointer-events:none;
-}
-.screen:after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(to top,rgba(0,0,0,.35),transparent 40%),
-             linear-gradient(to bottom,rgba(0,0,0,.2),transparent 22%);
-  pointer-events:none;z-index:2;
-}
-.notch{
-  position:absolute;
-  width:90px;height:22px;background:#000;
-  left:50%;transform:translateX(-50%);
-  z-index:10;border-radius:0 0 18px 18px;
-}
-.stats{
-  display:grid;grid-template-columns:repeat(4,1fr);
-  padding:50px 40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.stat b{
-  display:block;font-size:50px;
-  font-family:Orbitron;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.stat span{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-  font-size:0.82rem;letter-spacing:0.1em;text-transform:uppercase;
-}
-section{padding:110px 60px;}
-.section-title{
-  font-family:Orbitron;
-  margin-bottom:60px;
-  font-size:clamp(2rem,4vw,3.5rem);
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.section-tag{
-  font-family:Orbitron;font-size:0.65rem;
-  letter-spacing:0.3em;text-transform:uppercase;
-  margin-bottom:16px;display:flex;align-items:center;gap:12px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.section-tag::before{content:'';display:inline-block;width:30px;height:1px;background:var(--gold);}
-.features{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  gap:2px;background:rgba(255,215,0,.06);
-}
-.card{
-  background:#0a101a;padding:50px 35px;
-  position:relative;overflow:hidden;
-  transition:background .4s;
-}
-.card:hover{background:rgba(255,215,0,.04);}
-.card::after{
-  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(255,215,0,.35),transparent);
-  transform:scaleX(0);transition:transform .4s;
-}
-.card:hover::after{transform:scaleX(1);}
-.card h3{
-  margin-bottom:18px;font-family:Orbitron;font-size:0.95rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-.card p{
-  line-height:1.8;font-size:0.88rem;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.card-num{
-  position:absolute;top:20px;right:28px;
-  font-family:Orbitron;font-size:3rem;font-weight:900;
-  color:rgba(255,215,0,.05);line-height:1;
-}
-.carousel-section{padding:80px 0 120px;overflow:hidden;}
-.carousel-header{padding:0 60px;margin-bottom:50px;}
-.track{
-  display:flex;gap:24px;
-  padding:10px 60px;
-  width:max-content;
-  animation:scroll 28s linear infinite;
-}
-.track:hover{animation-play-state:paused;}
-@keyframes scroll{100%{transform:translateX(-50%)}}
-.shot{
-  width:240px;height:430px;
-  border-radius:30px;overflow:hidden;
-  border:1px solid rgba(255,215,0,.25);
-  position:relative;background:#111;
-  box-shadow:0 12px 50px rgba(0,0,0,.4);
-  transition:transform .3s,box-shadow .3s;
-  flex-shrink:0;
-}
-.shot:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 20px 60px rgba(255,215,0,.2);}
-.shot img{
-  width:100%;height:100%;
-  object-fit:contain;    /* 完整显示图片，不裁剪 */
-  background:#050810;
-  display:block;
-}
-.shot-fallback{
-  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-  position:relative;
-}
-.shot-fallback-bg-1{background:linear-gradient(160deg,#05200f,#050810,#1a0a00);}
-.shot-fallback-bg-2{background:linear-gradient(160deg,#2d1500,#050810,#1a0535);}
-.shot-fallback-bg-3{background:linear-gradient(160deg,#1a0a00,#05081a,#1a0535);}
-.shot-fallback-bg-4{background:linear-gradient(160deg,#1a0535,#05081a,#1a0a00);}
-.shot-fallback-bg-5{background:linear-gradient(160deg,#1a1000,#050810,#05200f);}
-.shot-grid{
-  position:absolute;inset:0;
-  background-image:linear-gradient(rgba(255,215,0,.05) 1px,transparent 1px),
-                    linear-gradient(90deg,rgba(255,215,0,.05) 1px,transparent 1px);
-  background-size:20px 20px;
-}
-.shot-label{
-  position:absolute;left:0;right:0;bottom:0;
-  padding:20px 16px 16px;text-align:center;
-  font-family:Orbitron;letter-spacing:3px;font-size:0.7rem;
-  background:linear-gradient(to top,rgba(0,0,0,.92),transparent);
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.cta{text-align:center;}
-.cta h2{
-  font-family:Orbitron;
-  font-size:clamp(2.5rem,5vw,4.2rem);
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-}
-.cta p{
-  font-size:1rem;margin-bottom:14px;letter-spacing:0.05em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.downloads{
-  margin-top:45px;display:flex;
-  justify-content:center;gap:25px;flex-wrap:wrap;
-}
-.dl-btn{
-  padding:20px 44px;text-decoration:none;color:#fff;
-  border:1px solid rgba(255,215,0,.3);border-radius:20px;
-  display:flex;align-items:center;gap:14px;
-  position:relative;overflow:hidden;
-  background:rgba(255,215,0,.04);backdrop-filter:blur(10px);
-  transition:all .35s;
-}
-.dl-btn:hover{
-  border-color:rgba(255,215,0,.6);
-  box-shadow:0 0 30px rgba(255,215,0,.2);
-  transform:translateY(-3px);
-}
-.dl-btn-label{text-align:left;}
-.dl-btn-sub{
-  font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;
-  display:block;margin-bottom:4px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
-.dl-btn-main{
-  font-family:Orbitron;font-size:0.95rem;font-weight:700;display:block;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-footer{
-  padding:40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-}
-footer p{
-  font-size:0.75rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.footer-links{
-  display:flex;justify-content:center;gap:30px;list-style:none;margin-bottom:16px;flex-wrap:wrap;
-}
-.footer-links a{
-  text-decoration:none;font-size:0.75rem;letter-spacing:0.08em;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-  transition:opacity .2s;
-}
-.footer-links a:hover{opacity:.65;}
-@media(max-width:980px){
-  nav ul{display:none}
-  h1{font-size:54px}
-  .hero{padding:120px 30px 70px;justify-content:center;}
-  .cta h2{font-size:42px}
-  .features{grid-template-columns:1fr}
-  .stats{grid-template-columns:repeat(2,1fr);gap:30px}
-  section{padding:90px 30px}
-  nav{padding:16px 24px}
-  .carousel-header{padding:0 30px}
-}
-style>
-head>
-<body>
+    </main>
 
-<nav>
-  <div class="logo">JAIHO91div>
-  <ul>
-    <li><a href="#features">Featuresa>li>
-    <li><a href="#games">Gamesa>li>
-    <li><a href="#download">Downloada>li>
-  ul>
-  <a class="play-btn" href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener">PLAY NOWa>
-nav>
+    <script>
+        function searchGames() {
+            let input = document.getElementById('gameSearch').value.toLowerCase();
+            let gameItems = document.getElementsByClassName('game-list-item');
+            let topSection = document.getElementById('topSection');
 
-<section class="hero">
-  <div class="hero-left">
-    <h1>Win Big<br>With JAIHO91h1>
-    <p>India's most thrilling real-money gaming platform.<br>Massive jackpots, lightning-fast gameplay and millions of winners.p>
-    <div class="hero-buttons">
-      <a href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener" class="btn-main">Play Freea>
-      <a href="#games" class="btn-ghost">Explore Gamesa>
-    div>
-  div>
-  <div class="hero-right">
-    <div class="phone-wrap">
-      <div class="phone-ring">div>
-      <div class="phone-ring r2">div>
-      <div class="phone-ring r3">div>
-      <div class="phone">
-        <div class="screen">
-          <div class="notch">div>
-          <video autoplay muted loop playsinline preload="auto">
-            <source src="video_2026-04-24_23-40-07.mp4" type="video/mp4">
-          video>
-        div>
-      div>
-    div>
-  div>
-section>
+            // Hide Top 3 section when searching to keep results clean
+            if (input.length > 0) {
+                topSection.style.display = 'none';
+            } else {
+                topSection.style.display = 'block';
+            }
 
-<div class="stats">
-  <div class="stat"><b>10M+b><span>Active Playersspan>div>
-  <div class="stat"><b>4.9b><span>Store Ratingspan>div>
-  <div class="stat"><b>50+b><span>Game Modesspan>div>
-  <div class="stat"><b>#1b><span>India Gamingspan>div>
-div>
+            for (let i = 0; i < gameItems.length; i++) {
+                let gameName = gameItems[i].getElementsByClassName('game-name')[0].innerText.toLowerCase();
+                if (gameName.includes(input)) {
+                    gameItems[i].style.display = "flex";
+                } else {
+                    gameItems[i].style.display = "none";
+                }
+            }
+        }
+    </script>
 
-<section id="features">
-  <div class="section-tag">Core Featuresdiv>
-  <h2 class="section-title">Engineered For<br>Ultimate Victoryh2>
-  <div class="features">
-    <div class="card"><div class="card-num">01div><h3>Live Real-Money Gamesh3><p>Play real-money games 24/7. Instant payouts, secure transactions, and fair play guaranteed on every table.p>div>
-    <div class="card"><div class="card-num">02div><h3>Massive Jackpotsh3><p>Daily jackpots worth crores of rupees. Spin, bet, and claim your share of India's biggest prize pools.p>div>
-    <div class="card"><div class="card-num">03div><h3>50+ Game Modesh3><p>From Teen Patti to Rummy, Slots to Poker — explore over 50 game modes built for every kind of player.p>div>
-    <div class="card"><div class="card-num">04div><h3>Refer and Earnh3><p>Invite friends and earn real cash for every referral. The more you share, the more you earn — no limits.p>div>
-    <div class="card"><div class="card-num">05div><h3>Daily Bonus Rewardsh3><p>Log in every day to claim exclusive bonuses, free spins, and cashback offers. Loyalty pays off at JAIHO91.p>div>
-    <div class="card"><div class="card-num">06div><h3>Instant Withdrawalsh3><p>Cash out your winnings in seconds via UPI, Paytm, or bank transfer. Your money, your control, always.p>div>
-  div>
-section>
-
-<section id="games" class="carousel-section">
-  <div class="carousel-header">
-    <div class="section-tag">Game Previewsdiv>
-    <h2 class="section-title">Experience The Thrillh2>
-  div>
-  <div class="track" id="carouselTrack">div>
-section>
-
-<script>
-  // 轮播图配置：请将您的5张图片重命名为 slide1.jpg ~ slide5.jpg，并放在同一文件夹
-  const carouselImages = [
-    { src: "slide1.jpg", label: "CHICKEN ROAD" },
-    { src: "slide2.jpg", label: "JACKPOT LEGEND" },
-    { src: "slide3.jpg", label: "FREESPIN WILD" },
-    { src: "slide4.jpg", label: "DROPS & WINS" },
-    { src: "slide5.jpg", label: "GRAND SLOT" }
-  ];
-
-  function createShot(imgData) {
-    return `
-     
-        ${imgData.src}" alt="${imgData.label}"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
-       
-${imgData.label}
-     
-    `;
-  }
-
-
-  const track = document.getElementById("carouselTrack");
-  if (track) {
-    let cardsHtml = carouselImages.map(createShot).join("");
-    // 复制一份用于无缝无限滚动
-    track.innerHTML = cardsHtml + cardsHtml;
-  }
-script>
-
-
-<section class="cta" id="download">
-  <div class="section-tag" style="justify-content:center;margin-bottom:20px;">Download Nowdiv>
-  <h2>Join Millions<br>Playing JAIHO91h2>
-  <p>Free to Join · Android & APK · Instant Payoutsp>
-  <div class="downloads">
-    <a href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener" class="dl-btn">
-      <svg width="38" height="42" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="13" y1="9" x2="8" y2="3" stroke="#78C800" stroke-width="2.2" stroke-linecap="round"/>
-        <line x1="27" y1="9" x2="32" y2="3" stroke="#78C800" stroke-width="2.2" stroke-linecap="round"/>
-        <circle cx="7.5" cy="2.5" r="1.8" fill="#a4e54a"/>
-        <circle cx="32.5" cy="2.5" r="1.8" fill="#a4e54a"/>
-        <path d="M8 16 C8 10.477 11.582 7 20 7 C28.418 7 32 10.477 32 16 L8 16 Z" fill="url(#andH)"/>
-        <circle cx="14.5" cy="12.5" r="2" fill="white"/>
-        <circle cx="25.5" cy="12.5" r="2" fill="white"/>
-        <circle cx="14.8" cy="12.5" r="1" fill="#050810"/>
-        <circle cx="25.8" cy="12.5" r="1" fill="#050810"/>
-        <rect x="5" y="17" width="30" height="18" rx="3" fill="url(#andB)"/>
-        <rect x="0" y="17" width="4" height="14" rx="2" fill="url(#andA)"/>
-        <rect x="36" y="17" width="4" height="14" rx="2" fill="url(#andA)"/>
-        <rect x="9" y="36" width="8" height="7" rx="2" fill="url(#andL)"/>
-        <rect x="23" y="36" width="8" height="7" rx="2" fill="url(#andL)"/>
-        <defs><linearGradient id="andH" x1="8" y1="7" x2="32" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#a4e54a"/><stop offset="100%" stop-color="#5cb800"/>linearGradient><linearGradient id="andB" x1="5" y1="17" x2="35" y2="35" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#78C800"/><stop offset="100%" stop-color="#4a9400"/>linearGradient><linearGradient id="andA" x1="0" y1="17" x2="0" y2="31" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#78C800"/><stop offset="100%" stop-color="#4a9400"/>linearGradient><linearGradient id="andL" x1="0" y1="36" x2="0" y2="43" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#5cb800"/><stop offset="100%" stop-color="#3a7a00"/>linearGradient>defs>
-      svg>
-      <div class="dl-btn-label"><span class="dl-btn-sub">Download APKspan><span class="dl-btn-main">Android Directspan>div>
-    a>
-    <a href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener" class="dl-btn">
-      <svg width="38" height="42" viewBox="0 0 40 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-<title>JAIHO91 | Win Bigtitle>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{
-  --gold:#ffd700;
-  --blue:#00f5ff;
-  --purple:#bf00ff;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-body{
-  background:#050810;
-  font-family:'Noto Sans SC',sans-serif;
-  color:#fff;
-  overflow-x:hidden;
-}
-.grad-text{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-@keyframes gradShift{
-  0%{background-position:0% center}
-  100%{background-position:200% center}
-}
-body:before{
-  content:'';
-  position:fixed;inset:0;
-  background:radial-gradient(circle at 20% 20%,rgba(255,215,0,.08),transparent 40%),
-              radial-gradient(circle at 80% 70%,rgba(191,0,255,.08),transparent 40%);
-  z-index:-1;
-}
-nav{
-  position:fixed;left:0;right:0;top:0;
-  padding:20px 60px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  background:rgba(5,8,16,.82);
-  backdrop-filter:blur(16px);
-  z-index:999;
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.logo{
-  font-family:Orbitron;
-  font-weight:900;
-  font-size:30px;
-  background:linear-gradient(90deg,var(--gold),#fff,var(--purple));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-}
-nav ul{display:flex;gap:40px;list-style:none;}
-nav ul a{
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.12em;
-  font-weight:700;
-  text-transform:uppercase;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-nav ul a:hover{opacity:.7}
-.play-btn{
-  padding:12px 32px;
-  background:linear-gradient(90deg,var(--gold),#ff9100);
-  color:#111;
-  font-weight:800;
-  border-radius:50px;
-  text-decoration:none;
-  font-size:0.82rem;
-  letter-spacing:0.1em;
-  transition:transform .2s,box-shadow .3s;
-}
-.play-btn:hover{
-  transform:translateY(-2px);
-  box-shadow:0 8px 28px rgba(255,215,0,.4);
-}
-.hero{
-  min-height:100vh;
-  padding:140px 70px 80px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:50px;
-}
-.hero-left{max-width:640px;}
-h1{
-  font-family:Orbitron;
-  font-size:76px;
-  line-height:1.05;
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.hero p{
-  font-size:20px;
-  line-height:1.8;
-  margin-bottom:40px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-}
-.hero-buttons{display:flex;gap:20px;flex-wrap:wrap;}
-.btn-main{
-  padding:18px 40px;
-  border-radius:50px;
-  background:linear-gradient(90deg,var(--gold),#ff9300);
-  text-decoration:none;
-  font-weight:800;
-  color:#111;
-  transition:transform .2s,box-shadow .3s;
-}
-.btn-main:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(255,215,0,.4);}
-.btn-ghost{
-  padding:18px 34px;
-  border-radius:50px;
-  border:1px solid rgba(255,215,0,.4);
-  text-decoration:none;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  background-size:200% auto;
-  animation:gradShift 4s linear infinite;
-}
-.hero-right{flex:1;display:flex;justify-content:center;}
-.phone-wrap{position:relative;}
-.phone-ring{
-  position:absolute;inset:-60px;
-  border-radius:50%;
-  border:1px solid rgba(255,215,0,.12);
-  animation:ringPulse 4s infinite;
-}
-.phone-ring.r2{inset:-100px;animation-delay:1s;}
-.phone-ring.r3{inset:-140px;animation-delay:2s;}
-@keyframes ringPulse{50%{transform:scale(1.08);opacity:.4}}
-.phone{
-  width:310px;height:620px;
-  border-radius:42px;padding:10px;
-  background:linear-gradient(145deg,#111,#222,#000);
-  box-shadow:0 0 70px rgba(255,215,0,.2),0 0 140px rgba(191,0,255,.12);
-  animation:float 6s ease-in-out infinite;
-}
-@keyframes float{50%{transform:translateY(-20px)}}
-.screen{
-  height:100%;border-radius:34px;
-  overflow:hidden;position:relative;background:#000;
-}
-.screen video{
-  position:absolute;inset:0;
-  width:100%;height:100%;object-fit:cover;
-  pointer-events:none;
-}
-.screen:after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(to top,rgba(0,0,0,.35),transparent 40%),
-             linear-gradient(to bottom,rgba(0,0,0,.2),transparent 22%);
-  pointer-events:none;z-index:2;
-}
-.notch{
-  position:absolute;
-  width:90px;height:22px;background:#000;
-  left:50%;transform:translateX(-50%);
-  z-index:10;border-radius:0 0 18px 18px;
-}
-.stats{
-  display:grid;grid-template-columns:repeat(4,1fr);
-  padding:50px 40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-  border-bottom:1px solid rgba(255,215,0,.08);
-}
-.stat b{
-  display:block;font-size:50px;
-  font-family:Orbitron;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.stat span{
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 6s linear infinite;
-  font-size:0.82rem;letter-spacing:0.1em;text-transform:uppercase;
-}
-section{padding:110px 60px;}
-.section-title{
-  font-family:Orbitron;
-  margin-bottom:60px;
-  font-size:clamp(2rem,4vw,3.5rem);
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;
-  animation:gradShift 5s linear infinite;
-}
-.section-tag{
-  font-family:Orbitron;font-size:0.65rem;
-  letter-spacing:0.3em;text-transform:uppercase;
-  margin-bottom:16px;display:flex;align-items:center;gap:12px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.section-tag::before{content:'';display:inline-block;width:30px;height:1px;background:var(--gold);}
-.features{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  gap:2px;background:rgba(255,215,0,.06);
-}
-.card{
-  background:#0a101a;padding:50px 35px;
-  position:relative;overflow:hidden;
-  transition:background .4s;
-}
-.card:hover{background:rgba(255,215,0,.04);}
-.card::after{
-  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(255,215,0,.35),transparent);
-  transform:scaleX(0);transition:transform .4s;
-}
-.card:hover::after{transform:scaleX(1);}
-.card h3{
-  margin-bottom:18px;font-family:Orbitron;font-size:0.95rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-.card p{
-  line-height:1.8;font-size:0.88rem;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 60%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.card-num{
-  position:absolute;top:20px;right:28px;
-  font-family:Orbitron;font-size:3rem;font-weight:900;
-  color:rgba(255,215,0,.05);line-height:1;
-}
-.carousel-section{padding:80px 0 120px;overflow:hidden;}
-.carousel-header{padding:0 60px;margin-bottom:50px;}
-.track{
-  display:flex;gap:24px;
-  padding:10px 60px;
-  width:max-content;
-  animation:scroll 28s linear infinite;
-}
-.track:hover{animation-play-state:paused;}
-@keyframes scroll{100%{transform:translateX(-50%)}}
-.shot{
-  width:240px;height:430px;
-  border-radius:30px;overflow:hidden;
-  border:1px solid rgba(255,215,0,.25);
-  position:relative;background:#111;
-  box-shadow:0 12px 50px rgba(0,0,0,.4);
-  transition:transform .3s,box-shadow .3s;
-  flex-shrink:0;
-}
-.shot:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 20px 60px rgba(255,215,0,.2);}
-.shot img{
-  width:100%;height:100%;
-  object-fit:contain;    /* 完整显示图片，不裁剪 */
-  background:#050810;
-  display:block;
-}
-.shot-fallback{
-  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-  position:relative;
-}
-.shot-fallback-bg-1{background:linear-gradient(160deg,#05200f,#050810,#1a0a00);}
-.shot-fallback-bg-2{background:linear-gradient(160deg,#2d1500,#050810,#1a0535);}
-.shot-fallback-bg-3{background:linear-gradient(160deg,#1a0a00,#05081a,#1a0535);}
-.shot-fallback-bg-4{background:linear-gradient(160deg,#1a0535,#05081a,#1a0a00);}
-.shot-fallback-bg-5{background:linear-gradient(160deg,#1a1000,#050810,#05200f);}
-.shot-grid{
-  position:absolute;inset:0;
-  background-image:linear-gradient(rgba(255,215,0,.05) 1px,transparent 1px),
-                    linear-gradient(90deg,rgba(255,215,0,.05) 1px,transparent 1px);
-  background-size:20px 20px;
-}
-.shot-label{
-  position:absolute;left:0;right:0;bottom:0;
-  padding:20px 16px 16px;text-align:center;
-  font-family:Orbitron;letter-spacing:3px;font-size:0.7rem;
-  background:linear-gradient(to top,rgba(0,0,0,.92),transparent);
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.cta{text-align:center;}
-.cta h2{
-  font-family:Orbitron;
-  font-size:clamp(2.5rem,5vw,4.2rem);
-  margin-bottom:20px;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-}
-.cta p{
-  font-size:1rem;margin-bottom:14px;letter-spacing:0.05em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.downloads{
-  margin-top:45px;display:flex;
-  justify-content:center;gap:25px;flex-wrap:wrap;
-}
-.dl-btn{
-  padding:20px 44px;text-decoration:none;color:#fff;
-  border:1px solid rgba(255,215,0,.3);border-radius:20px;
-  display:flex;align-items:center;gap:14px;
-  position:relative;overflow:hidden;
-  background:rgba(255,215,0,.04);backdrop-filter:blur(10px);
-  transition:all .35s;
-}
-.dl-btn:hover{
-  border-color:rgba(255,215,0,.6);
-  box-shadow:0 0 30px rgba(255,215,0,.2);
-  transform:translateY(-3px);
-}
-.dl-btn-label{text-align:left;}
-.dl-btn-sub{
-  font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;
-  display:block;margin-bottom:4px;
-  background:linear-gradient(90deg,var(--gold),var(--blue));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
-.dl-btn-main{
-  font-family:Orbitron;font-size:0.95rem;font-weight:700;display:block;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 4s linear infinite;
-}
-footer{
-  padding:40px;text-align:center;
-  border-top:1px solid rgba(255,215,0,.08);
-}
-footer p{
-  font-size:0.75rem;letter-spacing:0.06em;
-  background:linear-gradient(90deg,var(--gold) 0%,var(--blue) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 6s linear infinite;
-}
-.footer-links{
-  display:flex;justify-content:center;gap:30px;list-style:none;margin-bottom:16px;flex-wrap:wrap;
-}
-.footer-links a{
-  text-decoration:none;font-size:0.75rem;letter-spacing:0.08em;
-  background:linear-gradient(90deg,var(--gold),var(--blue),var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;background-size:200% auto;animation:gradShift 5s linear infinite;
-  transition:opacity .2s;
-}
-.footer-links a:hover{opacity:.65;}
-@media(max-width:980px){
-  nav ul{display:none}
-  h1{font-size:54px}
-  .hero{padding:120px 30px 70px;justify-content:center;}
-  .cta h2{font-size:42px}
-  .features{grid-template-columns:1fr}
-  .stats{grid-template-columns:repeat(2,1fr);gap:30px}
-  section{padding:90px 30px}
-  nav{padding:16px 24px}
-  .carousel-header{padding:0 30px}
-}
-style>
-head>
-<body>
-
-<nav>
-  <div class="logo">JAIHO91div>
-  <ul>
-    <li><a href="#features">Featuresa>li>
-    <li><a href="#games">Gamesa>li>
-    <li><a href="#download">Downloada>li>
-  ul>
-  <a class="play-btn" href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener">PLAY NOWa>
-nav>
-
-<section class="hero">
-  <div class="hero-left">
-    <h1>Win Big<br>With JAIHO91h1>
-    <p>India's most thrilling real-money gaming platform.<br>Massive jackpots, lightning-fast gameplay and millions of winners.p>
-    <div class="hero-buttons">
-      <a href="https://91jaiho.vip/?code=VZL5F6LSJ15" target="_blank" rel="noopener" class="btn-main">Play Freea>
-      <a href="#games" class="btn-ghost">Explore Gamesa>
-    div>
-  div>
-  <div class="hero-right">
-    <div class="phone-wrap">
-      <div class="phone-ring">div>
-      <div class="phone-ring r2">div>
-      <div class="phone-ring r3">div>
-      <div class="phone">
-        <div class="screen">
-          <div class="notch">div>
-          <video autoplay muted loop playsinline preload="auto">
-            <source src="video_2026-04-24_23-40-07.mp4" type="video/mp4">
-          video>
-        div>
-      div>
-    div>
-  div>
-section>
+</body>
+</html>
